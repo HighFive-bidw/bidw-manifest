@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: bidw-auth
-        image: high5cr.azurecr.io/bidw/auth:20250319142558
+        image: high5cr.azurecr.io/bidw/auth:20250319144820
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
