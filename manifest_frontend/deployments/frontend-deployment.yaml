@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: bidw-portal-frontend2
-        image: high5cr.azurecr.io/bidw/bidw-portal-frontend2:1.0.0
+        image: high5cr.azurecr.io/bidw/bidw-portal-frontend2:20250319045454
         imagePullPolicy: Always
         ports:
         - containerPort: 18080
