@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bidw-subscription
-        image: high5cr.azurecr.io/bidw/subscription:1.0.0
+        image: high5cr.azurecr.io/bidw/subscription:20250319052257
         imagePullPolicy: Always
         ports:
         - containerPort: 8082
