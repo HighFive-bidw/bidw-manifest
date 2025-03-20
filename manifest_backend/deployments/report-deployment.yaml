@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: bidw-report
-        image: high5cr.azurecr.io/bidw/report:20250319162910
+        image: high5cr.azurecr.io/bidw/report:20250320054121
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
